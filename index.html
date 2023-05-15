@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=
+        , initial-scale=1.0">
+        <title>Trabalho</title>
+        <link rel="stylesheet" href="./style.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Foldit&family=Oswald&family=Vina+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h1>Faça o seguinte:</h1>
+            </div>
+        </header>
+        <main>
+            <section id="explicacao">
+                <div class="container">
+                    <p>Faça com que B seja maior que A!</p>
+                </div>
+            </section>
+            <section id="inputs">
+                <div class="container">
+                    <form id="form-deposito">
+                        <h1>B</h1>
+                        <input type="number" id="campo-b" placeholder="Campo B" required>
+                        <h1>A</h1>
+                        <input type="number" id="campo-a" placeholder="Campo A" required>
+                        <p id="mensagem-erro"></p>
+                        <br>
+                        <button type="submit" id="btn">Enviar</button>
+                    </form>
+                    <p id="mensagem-resposta">
+                    </p>
+                </div>
+            </section>
+            <section id="resto">
+                <div class="container">
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container">
+                <p>&copy; Contém Direitos Autorais</p>
+            </div>
+        </footer>
+        <script src="./main.js"></script>
+    </body>
+</html>

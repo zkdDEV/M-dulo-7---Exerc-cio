@@ -1,0 +1,148 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*####################################################################################*/
+
+/*Configurações div container*/
+.container
+{
+    max-width: 1336px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+/*####################################################################################*/
+
+/*Configurações do Cabeçalho*/
+header
+{
+    background-color: rgb(150, 150, 150);
+    padding: 20px;
+}
+header .container h1
+{
+    font-size: 50px;
+}
+
+/*####################################################################################*/
+
+/*Configurações da seção explicação*/
+#explicacao
+{
+    background-color: rgb(180, 180, 180);
+}
+#explicacao .container p
+{
+    font-size: 30px;
+}
+
+/*####################################################################################*/
+
+/*Configurações da seção inputs*/
+#inputs
+{
+    background-color: rgb(150, 150, 150);
+}
+#inputs .container
+{
+    height: 400px;
+    align-items: center;
+    flex-direction: column;
+}
+
+#inputs .container form input
+{
+    font-size: 24px;
+    padding: 5px 5px;
+}
+#inputs .container form button
+{
+    background-color: #000000;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 116px;
+    cursor: pointer;
+    height: 50px;
+}
+#inputs .container form button:hover
+{
+    background-color: #2b2b2b;
+}
+
+
+/*####################################################################################*/
+
+/*Configuração seção resto*/
+#resto
+{
+    height: 134px;
+    background-color: rgb(150, 150, 150);
+}
+
+/*####################################################################################*/
+
+/*Configurações do Rodapé*/
+footer
+{
+    background-color: gray;
+}
+footer .container
+{
+    height: 50px;
+    align-items: center;
+    font-size: 24px;
+}
+
+/*####################################################################################*/
+
+/*Estilizando letras do site*/
+h1
+{
+    font-family: 'Franklin Gothic Medium';
+}
+#explicacao p
+{
+    font-family: Arial;
+}
+button
+{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 25px;
+}
+#inputs .container form h1
+{
+    font-size: 40px;
+}
+#inputs .container #mensagem-resposta
+{
+    font-size: 30px;
+    margin-top: 60px;
+    background-color: rgb(132, 132, 132);
+    padding: 10px 10px;
+    color: white;
+    font-family: Arial;
+    display: none;
+}
+#inputs .container #form-deposito #mensagem-erro
+{   
+    background-color: red;
+    border: 2px solid black;
+    padding: 5px;
+    margin-top: 1px;
+    font-size: 15px;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    display: none;
+}
+.error
+{
+    color: red;
+    border: 1px solid red;
+    outline-color: red;
+}
